@@ -2,6 +2,7 @@
 import './Features.css'
 const Features = () => {
     return (
+        // comment of features
         <div className='max-w-[1140px] mx-auto'>
             <div className="common_Heading text-center">
                 <h3 className="font-bold text-[#FF3811] mb-[20px] text-[20px]">Core Features</h3>
