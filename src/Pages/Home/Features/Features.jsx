@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import './Features.css'
 const Features = () => {
     return (
