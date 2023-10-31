@@ -1,8 +1,8 @@
+/* eslint-disable react/prop-types */
 
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Link } from 'react-router-dom';
 import './Team.css'
 /* eslint-disable react/no-unescaped-entities */
 const Team = () => {

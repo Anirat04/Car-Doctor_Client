@@ -1,0 +1,6 @@
+.svg-color:hover svg path{
+    fill: #ffffff;
+}
+.svg-color:hover  h3{
+    color: #ffffff;
+}

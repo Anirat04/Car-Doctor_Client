@@ -1,5 +1,6 @@
 import AboutUs from "../AboutUs/AboutUs";
 import Banner from "../Banner/Banner";
+import Features from "../Features/Features";
 import InfoSec from "../InfoSec/InfoSec";
 import PopularProducts from "../PopularProducts/PopularProducts";
 import Service from "../Service/Service";
@@ -14,6 +15,7 @@ const Home = () => {
             <InfoSec></InfoSec>
             <PopularProducts></PopularProducts>
             <Team></Team>
+            <Features></Features>
             This is home component
         </div>
         
