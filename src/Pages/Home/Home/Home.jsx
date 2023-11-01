@@ -5,6 +5,7 @@ import InfoSec from "../InfoSec/InfoSec";
 import PopularProducts from "../PopularProducts/PopularProducts";
 import Service from "../Service/Service";
 import Team from "../Team/Team";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
     return (
@@ -16,7 +17,7 @@ const Home = () => {
             <PopularProducts></PopularProducts>
             <Team></Team>
             <Features></Features>
-            This is home component
+            <Testimonial></Testimonial>
         </div>
         
     );
