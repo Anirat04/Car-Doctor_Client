@@ -20,7 +20,7 @@ const NavBar = () => {
         <div>
             <div className="flex bg-base-100 max-w-[1140px] mx-auto justify-evenly lg:justify-between flex-col sm:flex-row my-[30px]">
                 <div className=" ">
-                    <Link>
+                    <Link to="/">
                         <img src="https://i.ibb.co/tQDDLD1/logo.png" alt="" />
                     </Link>
                 </div>

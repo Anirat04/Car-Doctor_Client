@@ -10,7 +10,7 @@ const NavBar = () => {
         <NavLink className="navHoverClass" to='/blog'>Blog</NavLink>
         <NavLink className="navHoverClass" to='/contact'>Contact</NavLink>
         <NavLink className="navHoverClass" to='/ext'>EXT</NavLink>
-        <NavLink className="navHoverClass" to='/contact'>Login</NavLink>
+        <NavLink className="navHoverClass" to='ext/login'>Login</NavLink>
     </>
     const [isChecked, setIsChecked] = useState(false);
 
