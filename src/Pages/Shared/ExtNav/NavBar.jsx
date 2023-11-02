@@ -5,12 +5,9 @@ import './NavBar.css';
 const NavBar = () => {
     const NavLinks = <>
         <NavLink className="navHoverClass" to='/'>Home</NavLink>
-        <NavLink className="navHoverClass" to='/about'>About</NavLink>
-        <NavLink className="navHoverClass" to='/services'>Services</NavLink>
-        <NavLink className="navHoverClass" to='/blog'>Blog</NavLink>
-        <NavLink className="navHoverClass" to='/contact'>Contact</NavLink>
-        <NavLink className="navHoverClass" to='/ext'>EXT</NavLink>
-        <NavLink className="navHoverClass" to='/contact'>Login</NavLink>
+        <NavLink className="navHoverClass" to='/order'>Order</NavLink>
+        <NavLink className="navHoverClass" to='/order_review'>Order Review</NavLink>
+        <NavLink className="navHoverClass" to='/inventory'>Manage Inventory</NavLink>
     </>
     const [isChecked, setIsChecked] = useState(false);
 
@@ -21,18 +18,16 @@ const NavBar = () => {
     
     return (
         <div>
-            <div className="navbar bg-base-100 max-w-[1140px] mx-auto justify-evenly flex-col sm:flex-row my-[30px]">
-                <div className="navbar-start flex justify-center w-full sm:w-1/3 sm:justify-start">
+            <div className="flex bg-base-100 max-w-[1140px] mx-auto justify-evenly lg:justify-between flex-col sm:flex-row my-[30px]">
+                <div className=" ">
                     <Link>
                         <img src="https://i.ibb.co/tQDDLD1/logo.png" alt="" />
                     </Link>
                 </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="nav-active menu menu-horizontal px-1 text-[18px] font-semibold text-[#444444] space-x-10">
+                <div className="flex items-center">
+                    <ul className="nav-active px-1 text-[18px] font-semibold text-[#444444] space-x-10">
                         {NavLinks}
                     </ul>
-                </div>
-                <div className="navbar-end flex justify-center sm:justify-end">
                     {/* shopping cart icon svg */}
                     <div className="flex gap-5 mr-8">
                         <div>
@@ -47,7 +42,9 @@ const NavBar = () => {
                             </svg>
                         </div>
                     </div>
-                    <a className="btn bg-transparent border-[#FF3811] text-[#FF3811] hover:border-[#FF3811]">Appointment</a>
+                </div>
+                <div className="flex justify-center lg:hidden sm:justify-end">
+                    
                     <details className="dropdown dropdown-bottom dropdown-end lg:hidden">
                         <summary className="m-1 btn btn-circle swap swap-rotate" onClick={toggleIcons}>
 
